@@ -1,0 +1,20 @@
+name: DestyFixShulkerBox
+version: 1.0
+main: ru.loozen.destyfixshulkerbox.DestyFixShulkerBox
+api-version: 1.16
+commands:
+  destyfixshulkerbox:
+    description: Команды для DestyFixShulkerBox
+    usage: /destyfixshulkerbox [reload]
+    permission: destyfixshulkerbox.use
+    permission-message: "§cУ вас нет прав для выполнения этой команды."
+  dfsb:
+    description: Команды для DestyFixShulkerBox
+    usage: /dfsb [reload]
+    permission: destyfixshulkerbox.use
+    permission-message: "§cУ вас нет прав для выполнения этой команды."
+  reload:
+    description: Перезагрузить конфигурацию плагина
+    usage: /reload
+    permission: destyfixshulkerbox.reload
+    permission-message: "§cУ вас нет прав для выполнения этой команды."
